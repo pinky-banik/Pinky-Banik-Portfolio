@@ -1,8 +1,7 @@
 import React from 'react';
-import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import List from '@mui/material/List';
 import { NavHashLink } from 'react-router-hash-link';
+import logo from "../../../img/logo.png"
 
 const Header = () => {
 
@@ -12,18 +11,19 @@ const Header = () => {
             position: 'sticky',
             zIndex: 10,
         }}>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <div className="container">
-
-                    <Typography variant="h6" component="div" sx={{ flexGrow: 1, textAlign: 'left', color: '#fff' }}>
-                        Pinky Banik
-                    </Typography>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+                <div class="container">
+                    
+                    
+                    <NavHashLink to ="/#home">
+                    <a className="navbar-brand" href="/home"><img src={logo} alt="logo" />PINKY BANIK</a>
+                    </NavHashLink>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div style={{ justifyContent: 'flex-end' }} className="collapse navbar-collapse" id="navbarTogglerDemo03">
-                        <List className='headerNavItem'>
-                            <NavHashLink
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav text-center">
+                        <NavHashLink
                                 to='#home'>
                                 <Button color="inherit">Home</Button>
                             </NavHashLink>
@@ -47,7 +47,8 @@ const Header = () => {
                                 to='/#contact'>
                                 <Button color="inherit">Content</Button>
                             </NavHashLink>
-                        </List>
+                        
+                        </div>
                     </div>
                 </div>
             </nav>

@@ -6,7 +6,7 @@ import Button from '@mui/material/Button';
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import About from './About/About';
 import Service from './Service/Service';
-// import Projects from './Projects/Projects';
+import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
 import DownloadIcon from '@mui/icons-material/Download';
 import bannerImg from "../../../img/banner.png";
@@ -56,7 +56,7 @@ const Home = () => {
             </Box >
             <div id="about"><About></About></div>
             <div id="service"><Service></Service></div>
-            {/* <div id="Projects"><Projects></Projects></div> */}
+            <div id="Projects"><Projects></Projects></div>
             <div id="blog"><Blog></Blog></div>
             <div id="contact"><Contact></Contact></div>
 

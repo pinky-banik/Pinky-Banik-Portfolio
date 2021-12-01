@@ -10,7 +10,7 @@ const About = () => {
     return (
         <div style={{ padding: '5rem 0' }}>
             <div className='title-section'>
-                <h1>about <span>me</span></h1>
+                <h1 className="text-secondary">about <span>me</span></h1>
                 <span className='title-bg'>resume</span>
             </div>
             <div className="container aboutContent" style={{ width: '100%' }}>
