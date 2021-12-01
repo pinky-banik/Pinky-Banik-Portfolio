@@ -1,13 +1,15 @@
 import React from 'react';
 import './Projects.css';
-import worldClassCar from '../../../../img/WorldClassCar.jpg';
-import foodota from '../../../../img/Foodota.jpg';
-import growFitness from '../../../../img/GrowFitness.jpg';
+import sparklingGlitters from '../../../../img/sparkling-glitters-cover.png';
+import inftour from '../../../../img/infinite-tourism-cover.png';
+import medihom from '../../../../img/medicare-home-cover.png';
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
-import WorldClassCar from '../../../ProjectDetails/WorldClassCar/WorldClassCar';
-import GrowFitnessDetails from '../../../ProjectDetails/GrowFitnessDetails/GrowFitnessDetails';
-import FoodotaDetails from '../../../ProjectDetails/FoodotaDetails/FoodotaDetails';
+
 import { Button } from '@mui/material';
+import SparklingGlitters from "../../../ProjectDetails/Sparkling-glitters/sparkling-glitters"
+import InfiniteTourism from '../../../ProjectDetails/infinite-tourism/infinite-tourism';
+import MedicareHome from '../../../ProjectDetails/medicare-home/medicare-home';
+
 
 
 
@@ -35,12 +37,12 @@ const Projects = () => {
                     <div className="col-lg-4 col-md-6 col-sm-12">
                         <div className="card container-fluid px-3" data-aos="flip-right">
                             <div className="image">
-                                <img src={worldClassCar} alt="img" />
+                                <img src={sparklingGlitters} alt="img" />
                             </div>
                             <div className="details">
                                 <div className="center">
-                                    <h1>World Class Car<br /><span>Buy Cars</span></h1>
-                                    <p>It's a Full-stack web application with MERN. Dream Cars selling site. Preview live site, front end and back end code from below</p>
+                                    <h1>Sparkling Glitters<br /><span>Buy Decorative Lights</span></h1>
+                                    <p>It's a Full-stack web application with MERN stack. Decorative Lights selling website. Preview live site, front end and back end code from below</p>
                                     <ul>
                                         <li>
                                             <Button
@@ -55,12 +57,12 @@ const Projects = () => {
                     <div className="col-lg-4 col-md-6 col-sm-12 p-0">
                         <div className="card" data-aos="flip-left">
                             <div className="image">
-                                <img src={foodota} alt="img" />
+                                <img src={inftour} alt="img" />
                             </div>
                             <div className="details">
                                 <div className="center">
-                                    <h1>Food Ota<br /><span>Food At Home</span></h1>
-                                    <p>It's a Full-stack web application with MERN. Dream Cars selling site. Preview live site, front end and back end code from below</p>
+                                    <h1>Infinite Tourism<br /><span>Travel Bookin</span></h1>
+                                    <p>It's a Full-stack web application with MERN stack travel booking website. Preview live site, front end and back end code from below</p>
                                     <ul>
                                         <li>
                                             <Button
@@ -75,7 +77,7 @@ const Projects = () => {
                     <div className="col-lg-4 col-md-6 col-sm-12 p-0">
                         <div className="card" data-aos="flip-right">
                             <div className="image">
-                                <img src={growFitness} alt="img" />
+                                <img src={medihom} alt="img" />
                             </div>
                             <div className="details">
                                 <div className="center">
@@ -94,18 +96,18 @@ const Projects = () => {
 
                     </div>
                 </div>
-                <WorldClassCar
+                <SparklingGlitters
                     open={openWorldClassCar}
                     handleClose={handleCloseWorldClassCar}
-                ></WorldClassCar>
-                <GrowFitnessDetails
+                ></SparklingGlitters>
+                <MedicareHome
                     open={openGrowFitnessDetails}
                     handleClose={handleCloseGrowFitnessDetails}
-                ></GrowFitnessDetails>
-                <FoodotaDetails
+                ></MedicareHome>
+                <InfiniteTourism
                     open={openFoodotaDetails}
                     handleClose={handleCloseFoodotaDetails}
-                ></FoodotaDetails>
+                ></InfiniteTourism>
             </div>
         </div >
     );

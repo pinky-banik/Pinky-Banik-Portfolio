@@ -85,14 +85,16 @@ const Service = () => {
                         sx={{ fontWeight: '800', color: '#00000090', mb: 2 }}
                         variant="body1"
                         gutterBottom
-                        component="div">
+                        component="div"
+                        className ="text-secondary">
                         Have any works you want to done by me?<NavHashLink to="/#contact"><span style={{ color: '#0779E4' }}> Contact Me</span></NavHashLink>
                     </Typography>
                     <Typography
                         sx={{ fontWeight: '550', color: '#00000090' }}
                         variant="body1"
                         gutterBottom
-                        component="div">
+                        component="div"
+                        className ="text-secondary">
                         If you have any question or suggestion for me and need more information about me and my work, then <br />--please contact me.
                     </Typography>
                 </Box>
