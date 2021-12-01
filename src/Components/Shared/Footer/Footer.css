@@ -1,0 +1,33 @@
+ .footerDown{
+    background:#F8F9FA;
+    padding: 35px 0px;
+    text-align: center;
+    margin-top: 6rem;
+    transition: .5s all;
+    box-shadow: 1.5px 1.5px 16px rgb(174 174 174);
+}
+.footerDown h5 {
+    font-weight: bold;
+    color: #0779e4;
+    border-bottom: 2px solid tomato;
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 5px;
+}
+.footerDown p{
+    font-weight: bold;
+    color: rgba(138, 138, 138, 0.89);
+    margin: 0;
+}
+.mail{
+    text-decoration: none;
+    color: #0779e4;
+    display: block;
+    font-weight: 500;
+}
+.mail:hover{
+    text-decoration: underline;
+}
+small{
+    font-size: 13px;
+}

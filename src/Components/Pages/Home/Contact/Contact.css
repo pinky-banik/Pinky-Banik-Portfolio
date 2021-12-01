@@ -1,0 +1,47 @@
+.title{
+    text-align: center;
+}
+.contactPage .socialIcon{
+    display:flex;
+    list-style: none;
+}
+.contactPage .socialIcon li{
+    cursor: pointer;
+    color: #0779e4;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    border-radius: 2rem;
+    transition: .5s all;
+}
+.contactPage .socialIcon li:hover{
+    background-color:#0779e4;
+    color: #fff;
+}
+.contactPage .socialIcon li:hover a{
+    color: #fff;
+}
+.contactPage .socialIcon a{
+    transition: .5s all;
+}
+.contact h2, .contact h5{
+    font-weight: bold;
+    color: #0779e4;
+}
+.contact h2{
+    margin: 30px 0;
+}
+.contact i{
+    color: #0779e4;
+}
+.message input,.message textarea{
+    display: block;
+    width: 100%;
+    font-weight: 500;
+    color: #0779e4;
+    padding: .7rem;
+    margin: 30px 0;
+    border: 1px solid #0779e4
+}
+.message textarea{
+    height: 105px;
+}

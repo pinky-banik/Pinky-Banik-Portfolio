@@ -1,0 +1,80 @@
+/* ======== global css start======== */
+
+body{
+  background-color: #f8f8f8;
+  font-family: 'Rajdhani', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+.navbar{
+  background-color: #0779e4 !important;
+  padding: 5px;
+}
+.navbar-collapse a{
+  color:#fff;
+}
+.navbar-toggler{
+ color:transparent;
+}
+/* header list item hover color */
+.headerNavItem button:hover{
+  color: #fff;
+}
+
+/* ======== global css end======== */
+
+/* ======== all section title css start ========== */
+
+.title-section{
+    text-align: center;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    padding: 80px 0;
+}
+.title-section h1{
+    font-size: 56px;
+    text-transform: uppercase;
+    margin: 0;
+}
+@media (max-width: 576px){
+.title-section h1 {
+    font-size: 35px!important;
+}}
+.title-section h1 span{
+  color: #0779e4;
+}
+.title-bg{
+  font-size: 110px;
+  left: 0;
+  letter-spacing: 10px;
+  line-height: .7;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  text-transform: uppercase;
+  transform: translateY(-50%);
+  color: #0779e421;
+}
+@media (max-width: 576px){
+.title-bg {
+    font-size: 4rem;
+}}
+
+/* ======== all section title css end ========== */
+
+.MuiTypography-root{
+  font-family: 'Rajdhani', sans-serif !important;
+}
+.MuiButton-root{
+  font-family: 'Rajdhani', sans-serif !important;
+  font-size: medium !important;
+}
+.MuiTypography-subtitle2,.MuiTypography-subtitle1,.MuiTypography-body1{
+  font-size: large !important;
+}
+.css-4t3x6l-MuiPaper-root-MuiDrawer-paper{
+  height: auto !important;
+}

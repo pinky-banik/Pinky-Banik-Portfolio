@@ -1,0 +1,17 @@
+/* ========about section start========== */
+.aboutContent .aboutImgContainer{
+    border: 4px solid #0779e4;
+  }
+.aboutContent .aboutImgContainer img{
+    position: relative;
+    top: -15px;
+    right: 15px;
+    transition: .2s;
+    opacity: .9;
+  }
+.aboutContent .aboutImgContainer:hover img{
+  transform: translateZ(0) scale(1.05)
+  
+}
+
+/* ========about section end========== */
