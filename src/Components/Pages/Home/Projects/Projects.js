@@ -27,13 +27,13 @@ const Projects = () => {
     return (
         <div className="container projects" style={{ padding: '5rem 0' }}>
             <div className='title-section'>
-                <h1>my <span>projects</span></h1>
+                <h1 className="text-secondary">my <span>projects</span></h1>
                 <span className='title-bg'>experience</span>
             </div>
             <div>
-                <div className="row gy-4 m-0">
-                    <div className="col-lg-4 col-md-6 col-sm-12 p-0">
-                        <div className="card" data-aos="flip-right">
+                <div className="row gy-4">
+                    <div className="col-lg-4 col-md-6 col-sm-12">
+                        <div className="card container-fluid px-3" data-aos="flip-right">
                             <div className="image">
                                 <img src={worldClassCar} alt="img" />
                             </div>

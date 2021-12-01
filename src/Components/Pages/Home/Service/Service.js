@@ -10,18 +10,13 @@ import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import WebIcon from '@mui/icons-material/Web';
 import DesignServicesIcon from '@mui/icons-material/DesignServices';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
-// import ReviewsIcon from '@mui/icons-material/Reviews';
-// import AssignmentTurnedInIcon from '@mui/icons-material/AssignmentTurnedIn';
-// import CoffeeIcon from '@mui/icons-material/Coffee';
-// import CountUp from "react-countup";
-// import VisibilitySensor from 'react-visibility-sensor';
 import { NavHashLink } from 'react-router-hash-link';
 
 const Service = () => {
     return (
         <div className='service' style={{ padding: '5rem 0' }}>
             <div className='title-section'>
-                <h1>my <span>services</span></h1>
+                <h1 className="text-secondary">my <span>services</span></h1>
                 <span className='title-bg'>services</span>
             </div>
             <Container>

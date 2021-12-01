@@ -5,11 +5,11 @@ const Blog = () => {
     return (
         <div className='container blog'>
             <div className='title-section'>
-                <h1>my <span>blogs</span></h1>
+                <h1 className="text-secondary">my <span>blogs</span></h1>
                 <span className='title-bg'>blogs</span>
             </div>
-            <div className="row" data-aos="slide-up">
-                <div className="col-sm-12 col-md-6 col-lg-4 blogCards">
+            <div className="row py-3" data-aos="slide-up">
+                <div className="col-sm-12 col-md-6 col-lg-4 blogCards py-3">
                     <div className="card transition">
                         <h2 className="transition">Blog Coming <span style={{ color: 'black' }}>Soon</span></h2>
                         <p>My portfolio have no blog yet, sorry for that. You can mail me a topic to write blog..:)<br />--Happy Codding</p>
@@ -17,7 +17,7 @@ const Blog = () => {
                         <div className="card_circle transition"></div>
                     </div>
                 </div>
-                <div className="col-sm-12 col-md-6 col-lg-4 blogCards">
+                <div className="col-sm-12 col-md-6 col-lg-4 blogCards py-3">
                     <div className="card transition">
                         <h2 className="transition">Blog Coming <span style={{ color: 'black' }}>Soon</span></h2>
                         <p>My portfolio have no blog yet, sorry for that. You can mail me a topic to write blog..:)<br />--Happy Codding</p>
@@ -25,7 +25,7 @@ const Blog = () => {
                         <div className="card_circle transition"></div>
                     </div>
                 </div>
-                <div className="col-sm-12 col-md-6 col-lg-4 blogCards">
+                <div className="col-sm-12 col-md-6 col-lg-4 blogCards py-3">
                     <div className="card transition">
                         <h2 className="transition">Blog Coming <span style={{ color: 'black' }}>Soon</span></h2>
                         <p>My portfolio have no blog yet, sorry for that. You can mail me a topic to write blog..:)<br />--Happy Codding</p>

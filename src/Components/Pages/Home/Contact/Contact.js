@@ -34,7 +34,7 @@ const Contact = () => {
     return (
         <div style={{ paddingTop: '5rem' }} className='contactPage container'>
             <div className='title-section'>
-                <h1>contact <span>me</span></h1>
+                <h1 className="text-secondary">contact <span>me</span></h1>
                 <span className='title-bg'>connect</span>
             </div>
             <div className='row m-auto mt-5'>
