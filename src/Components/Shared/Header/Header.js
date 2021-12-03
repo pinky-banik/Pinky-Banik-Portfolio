@@ -2,6 +2,7 @@ import React from 'react';
 import Button from '@mui/material/Button';
 import { NavHashLink } from 'react-router-hash-link';
 import logo from "../../../img/logo.png"
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
 
@@ -38,10 +39,10 @@ const Header = () => {
                                 to='/#service'>
                                 <Button color="inherit">Service</Button>
                             </NavHashLink>
-                            <NavHashLink
-                                to='/#Projects'>
+                            <NavLink
+                                to='allProjects'>
                                 <Button color="inherit">Projects</Button>
-                            </NavHashLink>
+                            </NavLink>
                             <NavHashLink
                                 to='/#blog'>
                                 <Button color="inherit">Blog</Button>

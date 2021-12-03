@@ -12,6 +12,7 @@ import 'aos/dist/aos.css';
 import SparklingGlitters from './Components/ProjectDetails/Sparkling-glitters/sparkling-glitters';
 import InfiniteTourism from './Components/ProjectDetails/infinite-tourism/infinite-tourism';
 import MedicareHome from './Components/ProjectDetails/medicare-home/medicare-home';
+import AllProjects from './Components/Pages/Home/AllProjects/AllProjects';
 
 
 const App = () => {
@@ -31,6 +32,8 @@ const App = () => {
             <Route path="/home/about/about_me" element={<AboutMe />} />
             <Route path="/home/about/skill" element={<Skill />} />
             <Route path="/home/about/experience" element={<Experience />} />
+          </Route>
+          <Route path='/allProjects'element={<AllProjects />} >
           </Route>
           <Route path='/sparklingGlitters'element={<SparklingGlitters />} >
           </Route>
