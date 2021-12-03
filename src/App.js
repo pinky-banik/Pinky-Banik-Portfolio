@@ -9,6 +9,9 @@ import Skill from './Components/Pages/Home/About/Skill/Skill';
 import Experience from './Components/Pages/Home/About/Experience/Experience';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import SparklingGlitters from './Components/ProjectDetails/Sparkling-glitters/sparkling-glitters';
+import InfiniteTourism from './Components/ProjectDetails/infinite-tourism/infinite-tourism';
+import MedicareHome from './Components/ProjectDetails/medicare-home/medicare-home';
 
 
 const App = () => {
@@ -28,6 +31,12 @@ const App = () => {
             <Route path="/home/about/about_me" element={<AboutMe />} />
             <Route path="/home/about/skill" element={<Skill />} />
             <Route path="/home/about/experience" element={<Experience />} />
+          </Route>
+          <Route path='/sparklingGlitters'element={<SparklingGlitters />} >
+          </Route>
+          <Route path='/infiniteTourism'element={<InfiniteTourism />}>
+          </Route>
+          <Route path='/medicareHome'element={<MedicareHome />}>
           </Route>
         </Routes>
         <Footer></Footer>

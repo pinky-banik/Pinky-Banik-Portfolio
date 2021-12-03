@@ -53,7 +53,7 @@ const Contact = () => {
                                 </div>
                             </div>
                         </a>
-                        <a href="tel:+8801797365053" target='_blank' rel='noreferrer'>
+                        <a href="tel:+8801521445334" target='_blank' rel='noreferrer'>
                             <div data-aos='flip-left' className='row py-2'>
                                 <div className='col-3'>
                                     <i><PhoneInTalkIcon /></i>
@@ -64,7 +64,7 @@ const Contact = () => {
                                 </div>
                             </div>
                         </a>
-                        <a href="https://www.google.com/maps/place/Mohera/@24.1618672,90.0223587,14z/data=!3m1!4b1!4m5!3m4!1s0x3756008a2f04eaed:0x82dc0075a691cdb!8m2!3d24.1647383!4d90.0396539" target='_blank' rel='noreferrer'>
+                        <a href="//" target='_blank' rel='noreferrer'>
                             <div data-aos='flip-right' className='row py-2'>
                                 <div className='col-3'>
                                     <i><RoomIcon /></i>
